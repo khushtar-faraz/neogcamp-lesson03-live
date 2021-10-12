@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Component Library</h1>
+    <p><strong>Khushtar Faraz</strong> is attending neog camp and is currently completing levelZero one weekend and
+        assignment at a time.<br><br>This is a component library created by him to better design each
+        element.<br><br>After creating this library he is going to use the components in his <strong>portfolio, blog and
+            all projects</strong> created. This will ensure that all his projects have <strong>consistent themeing and
+            styling.</strong></p>
+    <hr>
+    <h2>@typography</h2>
+    <h1>The biggest heading is h1</h1>
+    <h2>The second biggest heading h2</h2>
+    <p>This is normal text. Long running text would look like this on your website. This will auto foold based on the
+        width.</p>
+    <p><small>This is relatively smaller text.</small></p>
+    <hr>
+    <h2>@containers</h2>
+    <h3>@fluid container</h3>
+    <div class="container">This is going to be a fluid container. It will go full width of page. With some margin.</div>
+    <h3>@center container</h3>
+    <div class="container container-center">This is going to be a center container. It will go till a given width and
+        center content.</div>
+    <hr>
+    <h2>@links</h2>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+    <hr>
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>We don't want to show bullets in the unordered list. We 'll remove that with CSS.</p>
+    <ul class="lists-non-bullets">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ul>
+    <h3>inline lists</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
+    <ul>
+        <li class="lists-inline">item one</li>
+        <li class="lists-inline">item two</li>
+        <li class="lists-inline">item three</li>
+    </ul>
+    <h3>reverse ordered lists</h3>
+    <ol reversed>
+        <li>good</li>
+        <li>better</li>
+        <li>awsome</li>
+    </ol>
+    <hr>
+    <h2>@nav</h2>
+    <p>Navigation is used on the top of the page and used to get to different pages</p>
+    <nav class="navigation container">
+        <div>
+            <div class="brand-name">theBrandName</div>
+            <ul class="lists-non-bullets nav-pills">
+                <li class="lists-inline">
+                    <a class="link link-active" href="/">home</a>
+                </li>
+                <li class="lists-inline">
+                    <a class="link" href="/">products</a>
+                </li>
+                <li class="lists-inline">
+                    <a class="link" href="/">about</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-img" src="/images/header-background.png">
+        <h1 class="hero-heading">Khushtar Faraz <span class="hero-attribute"> the web developer</span></h1>
+    </header>
+    <hr>
+    <h2>@section</h2>
+    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
+        sections of features, team, pricing, contact info etc.</p>
+    <h3>@normal section</h3>
+    <section class="section">
+        <div class="container container-center">
+            <h1>heading inside section</h1>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
+                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+                to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div>
+    </section>
+    <h3>@an off white section</h3>
+    <section class="section section-ow">
+        <div class="container container-center">
+            <h1>inside off white section</h1>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
+                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+                to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div>
+    </section>
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div>
+            <div class="footer-header">header inside footer</div>
+            <ul class="lists-non-bullets">
+                <li class="lists-inline"><a class="link" href="/">social one</a></li>
+                <li class="lists-inline"><a class="link" href="/">social two</a></li>
+                <li class="lists-inline"><a class="link" href="/">social three</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
